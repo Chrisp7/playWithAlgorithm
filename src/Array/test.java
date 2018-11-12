@@ -22,10 +22,10 @@ public class test {
     }
 
     public static void main(String[] args) {
-        Lc438 lc438 = new Lc438();
-        String a = "cbaebabacd";
-        String b = "abc";
-        List<Integer> res=lc438.findAnagrams(a, b);
-        printList(res);
+        Lc76 lc76 = new Lc76();
+        String a = "ADOBECODEBANC";
+        String b = "ABC";
+        String res = lc76.minWindow(a, b);
+        System.out.println(res);
     }
 }
