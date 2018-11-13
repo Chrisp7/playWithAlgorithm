@@ -14,8 +14,7 @@ public class test {
         int[] nums1={1,2,2,1};
         int[] nums2={2,2};
 
-        Lc349 lc349=new Lc349();
-        int[] arr=lc349.intersection(nums1,nums2);
+        int[] arr=new Lc350().intersect(nums1,nums2);
         printArray(arr);
     }
 }
