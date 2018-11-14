@@ -10,11 +10,11 @@ public class test {
         }
         System.out.print(arr[arr.length - 1]);
     }
-    public static void main(String[] args){
-        int[] nums1={1,2,2,1};
-        int[] nums2={2,2};
 
-        int[] arr=new Lc350().intersect(nums1,nums2);
-        printArray(arr);
+    public static void main(String[] args) {
+        String pattern = "abba";
+        String str = "dog cat cat fish";
+
+        System.out.println(new Lc290().wordPattern(pattern, str));
     }
 }
