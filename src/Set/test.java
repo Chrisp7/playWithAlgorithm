@@ -1,5 +1,8 @@
 package Set;
 
+import java.util.*;
+
+
 /**
  * Created by CP on 12/11/2018.
  */
@@ -11,10 +14,15 @@ public class test {
         System.out.print(arr[arr.length - 1]);
     }
 
-    public static void main(String[] args) {
-        String pattern = "abba";
-        String str = "dog cat cat fish";
+    public static <T> void printList(List<T> arr) {
+        for (T t : arr) {
+            System.out.print(t + ",");
+        }
+    }
 
-        System.out.println(new Lc290().wordPattern(pattern, str));
+    public static void main(String[] args) {
+        int[] num = {-1, 0, 1, 2, -1, -4};
+        List<List<Integer>> res = new Lc15().threeSum(num);
+        printList(res);
     }
 }
