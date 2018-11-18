@@ -21,8 +21,8 @@ public class test {
     }
 
     public static void main(String[] args) {
-        int[] num = {-1, 0, 1, 2, -1, -4};
-        List<List<Integer>> res = new Lc15().threeSum(num);
-        printList(res);
+        int[][] num = new int[][]{{0, 0}, {1, 0}, {2, 0}};
+
+        System.out.println(new Lc447().numberOfBoomerangs(num));
     }
 }
