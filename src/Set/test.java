@@ -21,8 +21,10 @@ public class test {
     }
 
     public static void main(String[] args) {
-        int[][] num = new int[][]{{0, 0}, {1, 0}, {2, 0}};
+        int[] nums = {0,2147483647};
+        int k = 1;
+        int t = 2147483647;
 
-        System.out.println(new Lc447().numberOfBoomerangs(num));
+        System.out.println(new Lc220().containsNearbyAlmostDuplicate(nums, k, t));
     }
 }
