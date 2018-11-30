@@ -5,8 +5,8 @@ package LinkedList;
  */
 public class test {
     public static void main(String[] args) {
-        ListNode head = ListNodeUtil.createLinkedList(new int[]{1, 2, 3, 4, 5});
-        ListNode res = new Lc25().reverseKGroup(head, 3);
+        ListNode head = ListNodeUtil.createLinkedList(new int[]{-1, 5, 3, 4, 0});
+        ListNode res = new Lc147().insertionSortList(head);
         ListNodeUtil.printList(res);
 
     }
