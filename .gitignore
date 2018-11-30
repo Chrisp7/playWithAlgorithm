@@ -3,8 +3,6 @@
 
 out/
 
-.gitignore
-
 ImoocAlgorithm.iml
 
 **/test.java
