@@ -8,6 +8,5 @@ public class test {
         ListNode head = ListNodeUtil.createLinkedList(new int[]{-1, 5, 3, 4, 0});
         ListNode res = new Lc147().insertionSortList(head);
         ListNodeUtil.printList(res);
-
     }
 }
