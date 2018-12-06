@@ -27,12 +27,9 @@ public class Lc102 {
             if (cur.node.left != null) queue.add(new NodeWithLevel(cur.node.left, cur.level + 1));
             if (cur.node.right != null) queue.add(new NodeWithLevel(cur.node.right, cur.level + 1));
 
-            if (cur.level == res.size()) {
+            if (cur.level == res.size())
                 res.add(new ArrayList<Integer>());
-                res.get(cur.level).add(cur.node.val);
-            } else {
-                res.get(cur.level).add(cur.node.val);
-            }
+            res.get(cur.level).add(cur.node.val);
 
         }
         return res;
