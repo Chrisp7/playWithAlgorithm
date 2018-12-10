@@ -15,7 +15,7 @@ public class Lc347 {
         List<Integer> res=new ArrayList<>();
         while(res.size()<k){
             Map.Entry<Integer,Integer> entry=pq.poll();
-            res.add(entry.getValue());
+            res.add(entry.getKey());
         }
         return res;
     }
