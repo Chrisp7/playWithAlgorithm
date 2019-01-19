@@ -6,8 +6,8 @@ public class Lc70 {
     private int calcWays(int n) {
         if (n == 1) return 1;
         if (n == 2) return 2;
-        if (arr[n - 1] != 0) return arr[n - 1];
-        else arr[n - 1] = calcWays(n - 1) + calcWays(n - 2);
+        if (arr[n - 1] == 0)
+            arr[n - 1] = calcWays(n - 1) + calcWays(n - 2);
         return arr[n - 1];
     }
 
