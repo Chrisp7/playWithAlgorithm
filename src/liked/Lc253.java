@@ -1,10 +1,12 @@
 package liked;
+
 import java.util.*;
 
 public class Lc253 {
     class Interval {
         int start;
         int end;
+
         Interval() {
             start = 0;
             end = 0;
